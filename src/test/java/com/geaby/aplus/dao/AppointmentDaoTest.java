@@ -1,10 +1,10 @@
-package com.soecode.lyf.dao;
+package com.geaby.aplus.dao;
 
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.soecode.lyf.BaseTest;
-import com.soecode.lyf.entity.Appointment;
+import com.geaby.aplus.BaseTest;
+import com.geaby.aplus.entity.Appointment;
 
 public class AppointmentDaoTest extends BaseTest {
 

@@ -1,16 +1,14 @@
-package com.soecode.lyf;
+package com.geaby.aplus;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -22,9 +20,9 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
-import com.soecode.lyf.entity.Book;
-import com.soecode.lyf.service.BookService;
-import com.soecode.lyf.web.BookController;
+import com.geaby.aplus.entity.Book;
+import com.geaby.aplus.service.BookService;
+import com.geaby.aplus.web.BookController;
 
 
 @RunWith(SpringJUnit4ClassRunner.class)

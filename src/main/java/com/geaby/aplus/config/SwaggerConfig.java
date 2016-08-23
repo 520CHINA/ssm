@@ -1,4 +1,4 @@
-package com.soecode.lyf.config;
+package com.geaby.aplus.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

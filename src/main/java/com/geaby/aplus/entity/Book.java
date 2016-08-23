@@ -1,4 +1,4 @@
-package com.soecode.lyf.entity;
+package com.geaby.aplus.entity;
 
 /**
  * 图书实体

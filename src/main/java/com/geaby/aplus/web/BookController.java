@@ -1,4 +1,4 @@
-package com.soecode.lyf.web;
+package com.geaby.aplus.web;
 
 import java.util.List;
 
@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.soecode.lyf.dto.AppointExecution;
-import com.soecode.lyf.dto.Result;
-import com.soecode.lyf.entity.Book;
-import com.soecode.lyf.service.BookService;
+import com.geaby.aplus.dto.AppointExecution;
+import com.geaby.aplus.dto.Result;
+import com.geaby.aplus.entity.Book;
+import com.geaby.aplus.service.BookService;
 import com.wordnik.swagger.annotations.ApiOperation;
 import com.wordnik.swagger.annotations.ApiParam;
 

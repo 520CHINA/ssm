@@ -1,11 +1,10 @@
-package com.soecode.lyf.dao;
+package com.geaby.aplus.dao;
 
-import java.util.Date;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Param;
 
-import com.soecode.lyf.entity.Book;
+import com.geaby.aplus.entity.Book;
 
 public interface BookDao {
 
