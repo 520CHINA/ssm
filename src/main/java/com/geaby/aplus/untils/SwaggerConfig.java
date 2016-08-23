@@ -1,4 +1,4 @@
-package com.geaby.aplus.config;
+package com.geaby.aplus.untils;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

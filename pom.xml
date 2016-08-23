@@ -55,7 +55,7 @@
 			<artifactId>mybatis-spring</artifactId>
 			<version>1.2.3</version>
 		</dependency>
-
+  
 		<!-- 3.Servlet web -->
 		<dependency>
 			<groupId>taglibs</groupId>
@@ -123,13 +123,6 @@
 			<artifactId>spring-test</artifactId>
 			<version>4.1.7.RELEASE</version>
 		</dependency>
-
-		<!-- redis客户端:Jedis -->
-		<dependency>
-			<groupId>redis.clients</groupId>
-			<artifactId>jedis</artifactId>
-			<version>2.7.3</version>
-		</dependency>
 		<dependency>
 			<groupId>com.dyuproject.protostuff</groupId>
 			<artifactId>protostuff-core</artifactId>
@@ -140,7 +133,24 @@
 			<artifactId>protostuff-runtime</artifactId>
 			<version>1.0.8</version>
 		</dependency>
+		<!-- 5)Spring cache -->
+		<dependency>
+     		<groupId>com.google.code.simple-spring-memcached</groupId>
+     		<artifactId>spring-cache</artifactId>
+     		<version>3.1.0</version>
+		</dependency>
 
+		<dependency>
+    	 	<groupId>com.google.code.simple-spring-memcached</groupId>
+     		<artifactId>xmemcached-provider</artifactId>
+     		<version>3.1.0</version>
+		</dependency>
+		<dependency>  
+            <groupId>com.googlecode.xmemcached</groupId>  
+            <artifactId>xmemcached</artifactId>  
+            <version>2.0.0</version>  
+        </dependency>  
+        
 		<!-- Map工具类 -->
 		<dependency>
 			<groupId>commons-collections</groupId>

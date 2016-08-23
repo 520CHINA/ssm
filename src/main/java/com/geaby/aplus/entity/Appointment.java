@@ -1,11 +1,14 @@
 package com.geaby.aplus.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * 预约图书实体
  */
-public class Appointment {
+public class Appointment implements Serializable {
+
+	private static final long serialVersionUID = -4519193805597420941L;
 
 	private long bookId;// 图书ID
 

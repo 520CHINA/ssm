@@ -1,9 +1,13 @@
 package com.geaby.aplus.entity;
 
+import java.io.Serializable;
+
 /**
  * 图书实体
  */
-public class Book {
+public class Book implements Serializable{
+
+	private static final long serialVersionUID = -5817932500210532055L;
 
 	private long bookId;// 图书ID
 
