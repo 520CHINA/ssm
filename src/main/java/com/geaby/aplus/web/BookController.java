@@ -23,7 +23,7 @@ import com.wordnik.swagger.annotations.ApiParam;
 
 
 @Controller
-@RequestMapping("/book/") // url:/模块/资源/{id}/细分 /seckill/list
+@RequestMapping("/book/")
 public class BookController {
 
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
@@ -67,7 +67,7 @@ public class BookController {
 			return "forward:/book/list";
 		}
 		model.addAttribute("book", book);
-		
+		logger.info("获取图书信息:" + book.getName());
 		//JSONObject json = JSONObject.fromObject(model);
 		System.out.print(book.getName());
 		return book.getName();
