@@ -28,7 +28,10 @@ import com.geaby.aplus.web.BookController;
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
 
-@ContextConfiguration({ "classpath:spring/spring-dao.xml", "classpath:spring/spring-service.xml" })
+@ContextConfiguration({ "classpath:spring/spring-dao.xml",
+						"classpath:spring/spring-service.xml" , 
+						"classpath:spring/spring-cache.xml"
+						})
 public class BaseTest {
 	
 	private MockMvc mockMvc;

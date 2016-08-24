@@ -31,5 +31,16 @@ public class BookServiceImplTest extends BaseTest {
 		Book book2 = bookService.getById(bookId);
 		System.out.println(book2.getName());
 	}
+	
+	@Test
+	public void testMc() throws Exception {
+		String bookId = "1001";
+		System.out.println("11111");
+		String book1 = bookService.testMc(bookId);
+		System.out.println(book1);
+		System.out.println("22222");
+		String book2 = bookService.testMc(bookId);
+		System.out.println(book2);
+	}
 
 }

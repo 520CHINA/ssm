@@ -17,6 +17,14 @@ public interface BookService {
 	 * @return
 	 */
 	Book getById(long bookId);
+	
+	/**
+	 * test mc
+	 * 
+	 * @param bookId
+	 * @return
+	 */
+	String testMc(String bookId);
 
 	/**
 	 * 查询所有图书

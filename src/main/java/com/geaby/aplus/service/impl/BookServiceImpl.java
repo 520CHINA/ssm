@@ -31,10 +31,18 @@ public class BookServiceImpl implements BookService {
 
     
 	@Override
-	@Cacheable(value = "memcachedCacheClient", key="bookId")
+	@Cacheable(value = "memcacheCache", key = "#bookId+''")
 	public Book getById(long bookId) {
+		System.out.println(Long.toString(bookId));
 		System.out.println("read db");
 		return bookDao.queryById(bookId);
+	}
+	
+	@Cacheable(value = "memcacheCache")
+	public String testMc(String bookId) {
+		System.out.println(bookId);
+		System.out.println("read db");
+		return "123";
 	}
 
 	@Override
