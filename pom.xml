@@ -212,7 +212,14 @@
         	<artifactId>classmate</artifactId>
         	<version>1.1.0</version>
     	</dependency>
-		<!-- swagger-springmvc end  -->		
+		<!-- swagger-springmvc end  -->	
+		
+		<!-- 用来做sha1加密算法  -->
+		<dependency>  
+        <groupId>commons-codec</groupId>  
+        <artifactId>commons-codec</artifactId>  
+        <version>1.10</version>  
+</dependency>  	
 		
 	</dependencies>
 	<build>
